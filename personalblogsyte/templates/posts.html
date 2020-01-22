@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head
+>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'posts_styles.css' %}">
+    <title>posts</title>
+</head>
+
+{% block content %}
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">More</button>
+        <div class="dropdown-content">
+            <a href="{% url 'index'%}">Main page</a>
+            <!--<a href="#">Link 2</a>
+            <a href="#">Link 3</a>-->
+          </div>
+          
+    {% for post in posts %}
+    <div class="posts">
+    <h1>Post: {{ post.post }}</h1>
+    <p>Date: {{ post.blog_date }}</p>
+    <p>Author: {{ post.author }}</p>
+    {% endfor %}
+    </div>
+
+</body>
+{% endblock%}
+</html>
