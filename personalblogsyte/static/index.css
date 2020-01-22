@@ -13,7 +13,7 @@
   .dropdown {
     position: relative;
     display: inline-block;
-    float: left;
+  
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -50,4 +50,26 @@
        text-align: center;
 
 }
+
+nav {
+
+  float: left;
+
+}
+
+nav ul {
+
+  list-style-type: none;
+  padding: 0;
+
+}
+
+article {
+
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
   
+
+}

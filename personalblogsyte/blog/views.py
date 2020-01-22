@@ -6,7 +6,7 @@ from .models import Registration
 from django.contrib.auth.decorators import login_required
 from django.http import Http404
 from .models import Blog
-from .models import Total
+
 
 
 

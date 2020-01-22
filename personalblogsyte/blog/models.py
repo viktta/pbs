@@ -17,8 +17,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.post
 
-class Total(models.Model):
-    total_posts = models.IntegerField()
+
 
     def __int__(self):
         return self.total_posts
