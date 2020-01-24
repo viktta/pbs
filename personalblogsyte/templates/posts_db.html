@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>posts1</title>
-</head>
-<body>
+  </head>
+  <body>
     {% if post %}
     <ol>
-        {% for posts in post %}
-        <li>Post: {{ posts_list.post }}</li>
-        <li>Author: {{ posts_list.author }}</li>
-        {% endfor %}
+      {% for posts in post %}
+      <li>Post: {{ posts_list.post }}</li>
+      <li>Author: {{ posts_list.author }}</li>
+      {% endfor %}
     </ol>
     {% endif %}
-</body>
+  </body>
 </html>
