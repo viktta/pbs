@@ -1,19 +1,17 @@
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   width: 100px;
-
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -22,7 +20,7 @@
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -35,48 +33,43 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
- 
 body {
-       
   margin: 0;
   padding: 0;
   text-align: center;
-
 }
 
 nav {
-
-float: left;
-
+  float: left;
 }
 
 nav ul {
-
-list-style-type: none;
-padding: 0;
-
+  list-style-type: none;
+  padding: 0;
 }
 
 article {
-
-float: left;
-padding: 20px;
-width: 70%;
-background-color: #f1f1f1;
-
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
 }
 
 .posts {
-  
   border: 2px solid transparent;
   padding: 50px;
-
 }

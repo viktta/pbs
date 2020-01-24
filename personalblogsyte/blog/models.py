@@ -14,10 +14,9 @@ class Blog(models.Model):
     blog_date = models.DateTimeField('Date time')
     post = models.TextField(blank=True)
     author = models.CharField(max_length=50, blank=True)
+
     def __str__(self):
         return self.post
-
-
 
     def __int__(self):
         return self.total_posts
